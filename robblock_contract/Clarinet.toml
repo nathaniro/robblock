@@ -15,8 +15,18 @@ path = 'contracts/donation_tracker.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.donor]
+path = 'contracts/donor.clar'
+clarity_version = 2
+epoch = 2.5
+
 [contracts.impact_reporting]
 path = 'contracts/impact_reporting.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.integration_with_tradition]
+path = 'contracts/integration_with_tradition.clar'
 clarity_version = 2
 epoch = 2.5
 [repl.analysis]
